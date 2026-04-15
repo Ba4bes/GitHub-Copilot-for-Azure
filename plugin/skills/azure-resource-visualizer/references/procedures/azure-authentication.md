@@ -1,5 +1,7 @@
 # Azure Authentication Check
 
+> Canonical copy for shared Azure workflow guidance. When editing this file, keep duplicated copies in related skills synchronized.
+
 Canonical procedure for verifying Azure session before any Azure operations. Referenced by all skills that interact with Azure.
 
 ---

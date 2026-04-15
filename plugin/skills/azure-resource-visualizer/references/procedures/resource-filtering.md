@@ -1,5 +1,7 @@
 # Resource Filtering Rules
 
+> Canonical copy for shared Azure workflow guidance. When editing this file, keep duplicated copies in related skills synchronized.
+
 Centralized exclusion lists for Azure resource discovery. Different skills filter differently — diagrams show architecture only, Bicep deploys everything deployable.
 
 ---

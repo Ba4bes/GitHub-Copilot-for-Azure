@@ -1,13 +1,28 @@
 ---
 name: azure-resource-visualizer
-description: "Analyze Azure resource groups and generate architecture diagrams as Mermaid or Draw.io. Supports live Azure resource discovery, sketch/description-to-diagram conversion, and detailed relationship mapping. WHEN: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure, draw.io diagram, sketch to diagram, convert sketch to architecture, generate draw.io, create draw.io from azure. DO NOT USE FOR: comparing diagrams against live Azure or Bicep (use azure-infrastructure-sync), generating Bicep templates (use azure-iac-generator)."
+description: "Generate Azure architecture diagrams (Mermaid, Draw.io) from resource groups, sketches, or descriptions. WHEN: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure, draw.io diagram, sketch to diagram. DO NOT USE FOR: comparing diagrams against live Azure or Bicep (use azure-infrastructure-sync), generating Bicep templates (use azure-iac-generator)."
 license: MIT
 metadata:
   author: Microsoft
-  version: "1.1.0"
+  version: "1.1.2"
 ---
 
 # Azure Resource Visualizer
+
+## Quick Reference
+
+| Property         | Value                                  |
+|------------------|----------------------------------------|
+| MCP Tools        | azure-resource-visualizer              |
+| CLI Commands     | N/A                                    |
+| Best For         | Azure architecture diagrams, resource mapping |
+
+## MCP Tools
+
+| Tool Name                  | Parameters                | Required | Description                                  |
+|----------------------------|---------------------------|----------|----------------------------------------------|
+| azure-resource-visualizer  | resourceGroup (string)    | Yes      | Generate diagram for a resource group        |
+| azure-resource-visualizer  | sketch (string)           | No       | Convert sketch/description to diagram        |
 
 Generate architecture diagrams from Azure resource groups, sketches, or descriptions.
 

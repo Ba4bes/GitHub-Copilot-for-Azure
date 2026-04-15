@@ -1,5 +1,6 @@
 {
   "description": "Azure resource type to Draw.io stencil mappings. ALWAYS look up a resource type here before constructing any icon path. For resource types NOT listed here, derive the path from the azure2 convention: img/lib/azure2/<category>/<PascalCase_Resource_Name>.svg — but ONLY after confirming the file exists. Never guess the category from the ARM namespace: Microsoft.Web resources live in app_services/, not web/ or compute/. This file lists all known exceptions (wrong category, singular/plural surprises, non-existent files, fallback icons) and container styles.",
+  "_comment_canonicalCopy": "Canonical copy for shared Azure diagram guidance. When editing this file, keep duplicated copies in related skills synchronized.",
   "criticalWarnings": [
     "Microsoft.Web/* resources (App Services, App Service Plans, Function Apps) live in app_services/ — NOT in compute/ or web/",
     "App_Service_Plans.svg is in app_services/, NOT compute/. compute/ does not contain this file.",

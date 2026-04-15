@@ -1,5 +1,7 @@
 # Azure Resource Metadata Model
 
+> Canonical copy for shared Azure diagram guidance. When editing this file, keep duplicated copies in related skills synchronized.
+
 Shared internal representation used by AzVerify skills (sketch-to-diagram, diagram-to-bicep, diagram-azure-sync).
 
 ## Schema
