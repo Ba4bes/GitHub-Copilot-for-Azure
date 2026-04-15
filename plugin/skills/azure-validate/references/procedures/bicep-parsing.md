@@ -1,3 +1,4 @@
+<!-- canonical-copy: https://github.com/Azure/azure-resource-visualizer/blob/main/docs/bicep-parsing.md -->
 # Bicep Parsing Procedure
 
 Parse Bicep templates into a structured resource model for comparison. Referenced by skills that analyze existing Bicep files.

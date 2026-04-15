@@ -224,7 +224,7 @@ describeIntegration(`${SKILL_NAME}_ - Integration Tests`, () => {
         repoUrl: ASPIRE_SAMPLES_REPO,
         targetDir: cachedCloneDir,
         depth: 1,
-        sparseCheckoutPath: [CLIENT_APPS_SPARSE_PATH, ASPIRE_FUNCTIONS_SPARSE_PATH],
+        sparseCheckoutPath: `${CLIENT_APPS_SPARSE_PATH}\n${ASPIRE_FUNCTIONS_SPARSE_PATH}`,
       });
     });
 
